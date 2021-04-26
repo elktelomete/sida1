@@ -8,11 +8,30 @@
 	<p><h5>"Di paaht to clahritii staahts wid di smahk" -Wise gunjaahman</h5></p><br>
 
 	<h1>Beekahm one wi di smaahk, til mi yah neim</h1>
-	<form>
-		Name of di aprentiiz <input type="text"><br>
-		Laahst neim <input type="text"><br>
-		iimeil <input type="text"><br><br>
-		<input type="submit">
+	<!-- use "GET" not "POST  skapa comments med ctrl och ' inte /--> 
+	<!-- div och span används också! -->
+	<form method="GET">
+		Name of di aprentiiz: <input type="text" name="1st name"><br>
+		Laahst neim: <input type="text" name="last name"><br>
+		iimeil: <input type="email" name="email" required><br>
+		Burrdey: <input type="date" name="birthday"><br>
+		Peswurd: <input type="password" name="password" min='5'><br><br>
+		Yandaah:<br><br>
+		<input type="radio" name="Yandaah" value="Male">Meihl<br>
+		<input type="radio" name="Yandaah" value="Female">Fihmeih<br>	
+		<input type="radio" name="Yandaah" value="other">Adaah<br><br>
+		Animuls: <br>
+		<input type="checkbox" name="cat"> Caht<br>
+		<input type="checkbox" name="dog"> Dahg<br>
+		<br><br>
+		smahk fleivah:<br>
+		<select name="strain">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+		</select><br><br>
+		<input type="submit" value="Make mi into da smahk!"><br>
+		<input type="reset" value="BRING ON THE ERASHIAN"><br><br>
 	</form><br>
 <a href="index.html">Goh bahck</a>
 </body>
